@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #eee;
+}
+
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 4rem;
+  padding: 0 3rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header #header-img {
+  height: 2rem;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  margin: 0 2rem 0;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4rem;
+}
+
+main #first-section h1 {
+  margin-top: 30px;
+}
+
+main #first-section form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+main #first-section form input {
+  display: block;
+}
+
+main #first-section form input[type="email"] {
+  height: 2rem;
+  padding: 0 0.5rem;
+  width: 75%;
+}
+
+main #first-section form input[type="submit"] {
+  background-color: #F1C40F;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.8rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-weight: 900;
+  margin-top: 14px;
+}
+
+main #first-section form input[type="submit"]:hover {
+  background-color: rgba(255, 153, 0, 0.973);
+}
+
+main #features .features {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 4rem 0;
+}
+
+main #features .features i {
+  display: block;
+  color: rgba(255, 153, 0, 0.973);
+  font-size: 3rem;
+  text-align: center;
+  width: 5rem;
+}
+
+main #features .features div {
+  margin-left: 2rem;
+}
+
+main #how-it-works {
+  width: 50%;
+}
+
+main #how-it-works .video-wrapper {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+main #how-it-works .video-wrapper #video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+main #pricing {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #pricing article {
+  border: black solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3rem 2rem;
+  width: 300px;
+}
+
+main #pricing article h3 {
+  background-color: #DDD;
+  height: 3rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+main #pricing article p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  height: 3rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+main #pricing article ul {
+  list-style: none;
+  text-align: center;
+  line-height: 2rem;
+}
+
+main #pricing article button {
+  background-color: #F1C40F;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.8rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 2rem 0 1rem;
+  height: 2.8rem;
+  width: 40%;
+}
+
+main #pricing article button:hover {
+  background-color: rgba(255, 153, 0, 0.973);
+}
+
+footer {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: #DDD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1.2rem;
+  width: 100%;
+  max-width: 1050px;
+}
+
+footer ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer ul li {
+  margin: 0 0.5rem 0.2rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 780px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 8rem;
+  }
+  header ul {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header ul li {
+    margin: 0.2rem 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
